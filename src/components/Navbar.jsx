@@ -6,11 +6,15 @@ export function Navbar({ theme, onToggleTheme }) {
   return (
     <header className="nav">
       <h1 className="brand">
-        <span className="name">John Doe</span>
+        <span className="name">Terrell Finklea</span>
         <span className="sep" aria-hidden="true">
           ·
         </span>
-        <span className="role">Senior Front-End Engineer</span>
+        <span className="role">Senior Software Engineer</span>
+        <span className="sep" aria-hidden="true">
+          ·
+        </span>
+        <small className="role ">Building accessible, high-reliability web applications, UI architecture, and full-stack systems.</small>
       </h1>
       <div className="nav-actions">
         <button
@@ -24,7 +28,7 @@ export function Navbar({ theme, onToggleTheme }) {
         <nav className="social" aria-label="Social">
           <a
             className="icon-button"
-            href="https://www.linkedin.com"
+            href="http://www.linkedin.com/in/terrell-finklea-b7a457b6"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
@@ -33,7 +37,7 @@ export function Navbar({ theme, onToggleTheme }) {
           </a>
           <a
             className="icon-button"
-            href="https://github.com"
+            href="https://github.com/terrell-merci"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
