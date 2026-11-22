@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Only needed if you use client-side routing (e.g. React Router).
+# Without it, refreshing or deep-linking to a route such as /about returns a 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
