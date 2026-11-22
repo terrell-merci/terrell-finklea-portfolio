@@ -1,7 +1,3 @@
-// Placeholder projects. Replace the name, summary, tags, and url
-// when the real work is ready. A site that sends X-Frame-Options
-// or a restrictive frame-ancestors policy shows a visit link
-// inside the same preview frame.
 export const projects = [
   {
     name: 'M365 Task Agent',
